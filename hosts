@@ -1,10 +1,5 @@
-[all:vars]
-logdir=/usr/local/junos/log
-configdir=/usr/local/junos/config
-packagedir=/usr/local/junos/packages
-
 [vsrx]
 red-vsrx 
 blue-vsrx 
-green-vsrx   fw_role=PCI
+green-vsrx   
 black-vsrx 

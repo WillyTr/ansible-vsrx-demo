@@ -1,5 +1,0 @@
----
-- name: template building config snippets
-  template: src={{ item }} dest={{baseconfdir.path}}/{{ item|basename }}
-  with_fileglob: 
-    - ../templates/*

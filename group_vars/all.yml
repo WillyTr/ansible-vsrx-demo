@@ -1,3 +1,6 @@
 ---
-PORT_NETCONF: 830
-domainname: jls.net
+pkg_dir: /usr/local/junos/packages
+log_dir: logs
+build_dir: build
+
+domain_name: jls.net

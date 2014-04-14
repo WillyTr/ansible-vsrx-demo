@@ -1,0 +1,12 @@
+---
+- name: "Config:Merge"
+  hosts: all
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: load-merge config file
+      junos_install_config: 
+        host={{ inventory_hostname }}
+        file={{ file }}
+        logfile={{ log_dir }}/{{ inventory_hostname }}.log
