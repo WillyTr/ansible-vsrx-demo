@@ -1,4 +1,8 @@
 ---
+# =========================================================
+# Setup variables and directories
+# =========================================================
+
 - name: Creating build directories for each host
   hosts: all
   connection: local
@@ -13,6 +17,10 @@
       file: path={{ build_dir }} state=directory
     - name: group by firewall role 
       group_by: key=fw_role_{{ FW_role }}
+
+# =========================================================
+# Role based config template building
+# =========================================================
 
 - name: Template-build PCI Firewalls
   hosts: fw_role_PCI
@@ -31,6 +39,10 @@
     - ansible_user
     - fw_baseconf
     - fw_dmzconf
+
+# =========================================================
+# Finish by assembling config snippets into single file
+# =========================================================
 
 - name: Creating final junos.conf
   hosts: all
