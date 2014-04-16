@@ -1,0 +1,43 @@
+2014-04-14 10:51:41,690:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:51:43,677:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:51:43,678:CONFIG:red-vsrx:taking lock
+2014-04-14 10:51:43,796:CONFIG:red-vsrx:loading config
+2014-04-14 10:51:44,503:CONFIG:red-vsrx:unlocking
+2014-04-14 10:51:44,671:CONFIG:red-vsrx:change completed
+2014-04-14 10:52:11,905:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:52:13,719:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:52:13,720:CONFIG:red-vsrx:taking lock
+2014-04-14 10:52:13,841:CONFIG:red-vsrx:loading config
+2014-04-14 10:52:14,444:CONFIG:red-vsrx:committing change, please be patient
+2014-04-14 10:52:17,737:CONFIG:red-vsrx:unlocking
+2014-04-14 10:52:17,857:CONFIG:red-vsrx:change completed
+2014-04-14 10:52:27,757:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:52:29,653:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:52:29,654:CONFIG:red-vsrx:taking lock
+2014-04-14 10:52:29,771:CONFIG:red-vsrx:loading config
+2014-04-14 10:52:30,513:CONFIG:red-vsrx:unlocking
+2014-04-14 10:52:30,645:CONFIG:red-vsrx:change completed
+2014-04-14 10:55:03,933:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:55:05,620:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:55:05,620:CONFIG:red-vsrx:taking lock
+2014-04-14 10:55:05,740:CONFIG:red-vsrx:loading config
+2014-04-14 10:55:06,611:CONFIG:red-vsrx:unlocking
+2014-04-14 10:55:06,733:CONFIG:red-vsrx:change completed
+2014-04-14 10:55:13,542:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:55:15,463:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:55:15,463:CONFIG:red-vsrx:taking lock
+2014-04-14 10:55:15,581:CONFIG:red-vsrx:loading config
+2014-04-14 10:55:16,273:CONFIG:red-vsrx:unlocking
+2014-04-14 10:55:16,445:CONFIG:red-vsrx:change completed
+2014-04-14 10:56:03,590:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:56:05,228:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:56:05,228:CONFIG:red-vsrx:taking lock
+2014-04-14 10:56:05,345:CONFIG:red-vsrx:loading config
+2014-04-14 10:56:05,985:CONFIG:red-vsrx:unlocking
+2014-04-14 10:56:06,105:CONFIG:red-vsrx:change completed
+2014-04-14 10:58:21,362:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-14 10:58:23,163:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:58:23,163:CONFIG:red-vsrx:taking lock
+2014-04-14 10:58:23,232:CONFIG:red-vsrx:loading config
+2014-04-14 10:58:23,905:CONFIG:red-vsrx:unlocking
+2014-04-14 10:58:24,024:CONFIG:red-vsrx:change completed

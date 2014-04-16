@@ -1,0 +1,25 @@
+2014-04-14 10:52:27,755:CONFIG:black-vsrx:connecting to host: jeremy@black-vsrx
+2014-04-14 10:52:29,523:CONFIG:black-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:52:29,523:CONFIG:black-vsrx:taking lock
+2014-04-14 10:52:29,656:CONFIG:black-vsrx:loading config
+2014-04-14 10:52:30,448:CONFIG:black-vsrx:committing change, please be patient
+2014-04-14 10:52:33,920:CONFIG:black-vsrx:unlocking
+2014-04-14 10:52:34,037:CONFIG:black-vsrx:change completed
+2014-04-14 10:55:03,926:CONFIG:black-vsrx:connecting to host: jeremy@black-vsrx
+2014-04-14 10:55:05,771:CONFIG:black-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:55:05,771:CONFIG:black-vsrx:taking lock
+2014-04-14 10:55:05,944:CONFIG:black-vsrx:loading config
+2014-04-14 10:55:06,802:CONFIG:black-vsrx:unlocking
+2014-04-14 10:55:06,921:CONFIG:black-vsrx:change completed
+2014-04-14 10:55:13,551:CONFIG:black-vsrx:connecting to host: jeremy@black-vsrx
+2014-04-14 10:55:15,310:CONFIG:black-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:55:15,310:CONFIG:black-vsrx:taking lock
+2014-04-14 10:55:15,451:CONFIG:black-vsrx:loading config
+2014-04-14 10:55:16,141:CONFIG:black-vsrx:unlocking
+2014-04-14 10:55:16,309:CONFIG:black-vsrx:change completed
+2014-04-14 10:56:03,617:CONFIG:black-vsrx:connecting to host: jeremy@black-vsrx
+2014-04-14 10:56:05,527:CONFIG:black-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:56:05,527:CONFIG:black-vsrx:taking lock
+2014-04-14 10:56:05,644:CONFIG:black-vsrx:loading config
+2014-04-14 10:56:06,283:CONFIG:black-vsrx:unlocking
+2014-04-14 10:56:06,403:CONFIG:black-vsrx:change completed

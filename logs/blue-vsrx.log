@@ -1,0 +1,25 @@
+2014-04-14 10:52:27,753:CONFIG:blue-vsrx:connecting to host: jeremy@blue-vsrx
+2014-04-14 10:52:29,487:CONFIG:blue-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:52:29,487:CONFIG:blue-vsrx:taking lock
+2014-04-14 10:52:29,605:CONFIG:blue-vsrx:loading config
+2014-04-14 10:52:30,043:CONFIG:blue-vsrx:committing change, please be patient
+2014-04-14 10:52:33,210:CONFIG:blue-vsrx:unlocking
+2014-04-14 10:52:33,333:CONFIG:blue-vsrx:change completed
+2014-04-14 10:55:03,936:CONFIG:blue-vsrx:connecting to host: jeremy@blue-vsrx
+2014-04-14 10:55:05,655:CONFIG:blue-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:55:05,655:CONFIG:blue-vsrx:taking lock
+2014-04-14 10:55:05,723:CONFIG:blue-vsrx:loading config
+2014-04-14 10:55:06,215:CONFIG:blue-vsrx:unlocking
+2014-04-14 10:55:06,335:CONFIG:blue-vsrx:change completed
+2014-04-14 10:55:13,540:CONFIG:blue-vsrx:connecting to host: jeremy@blue-vsrx
+2014-04-14 10:55:15,583:CONFIG:blue-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:55:15,583:CONFIG:blue-vsrx:taking lock
+2014-04-14 10:55:15,701:CONFIG:blue-vsrx:loading config
+2014-04-14 10:55:16,088:CONFIG:blue-vsrx:unlocking
+2014-04-14 10:55:16,256:CONFIG:blue-vsrx:change completed
+2014-04-14 10:56:03,599:CONFIG:blue-vsrx:connecting to host: jeremy@blue-vsrx
+2014-04-14 10:56:05,398:CONFIG:blue-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-14 10:56:05,398:CONFIG:blue-vsrx:taking lock
+2014-04-14 10:56:05,525:CONFIG:blue-vsrx:loading config
+2014-04-14 10:56:05,915:CONFIG:blue-vsrx:unlocking
+2014-04-14 10:56:06,039:CONFIG:blue-vsrx:change completed
