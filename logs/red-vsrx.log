@@ -41,3 +41,16 @@
 2014-04-14 10:58:23,232:CONFIG:red-vsrx:loading config
 2014-04-14 10:58:23,905:CONFIG:red-vsrx:unlocking
 2014-04-14 10:58:24,024:CONFIG:red-vsrx:change completed
+2014-04-17 09:01:26,283:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-17 09:01:28,389:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-17 09:01:28,389:CONFIG:red-vsrx:taking lock
+2014-04-17 09:01:28,507:CONFIG:red-vsrx:loading config
+2014-04-17 09:01:29,340:CONFIG:red-vsrx:committing change, please be patient
+2014-04-17 09:01:36,031:CONFIG:red-vsrx:unlocking
+2014-04-17 09:01:36,149:CONFIG:red-vsrx:change completed
+2014-04-17 09:01:49,691:CONFIG:red-vsrx:connecting to host: jeremy@red-vsrx
+2014-04-17 09:01:52,139:CONFIG:red-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-17 09:01:52,139:CONFIG:red-vsrx:taking lock
+2014-04-17 09:01:52,312:CONFIG:red-vsrx:loading config
+2014-04-17 09:01:53,177:CONFIG:red-vsrx:unlocking
+2014-04-17 09:01:53,350:CONFIG:red-vsrx:change completed

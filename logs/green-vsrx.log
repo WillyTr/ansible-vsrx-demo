@@ -23,3 +23,16 @@
 2014-04-14 10:56:05,313:CONFIG:green-vsrx:loading config
 2014-04-14 10:56:06,057:CONFIG:green-vsrx:unlocking
 2014-04-14 10:56:06,176:CONFIG:green-vsrx:change completed
+2014-04-17 09:01:26,278:CONFIG:green-vsrx:connecting to host: jeremy@green-vsrx
+2014-04-17 09:01:28,786:CONFIG:green-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-17 09:01:28,786:CONFIG:green-vsrx:taking lock
+2014-04-17 09:01:28,954:CONFIG:green-vsrx:loading config
+2014-04-17 09:01:29,962:CONFIG:green-vsrx:committing change, please be patient
+2014-04-17 09:01:38,410:CONFIG:green-vsrx:unlocking
+2014-04-17 09:01:38,593:CONFIG:green-vsrx:change completed
+2014-04-17 09:01:49,706:CONFIG:green-vsrx:connecting to host: jeremy@green-vsrx
+2014-04-17 09:01:52,191:CONFIG:green-vsrx:pushing file: /home/jeremy/Ansible/ansible-vsrx-demo/banner/banner.conf
+2014-04-17 09:01:52,191:CONFIG:green-vsrx:taking lock
+2014-04-17 09:01:52,310:CONFIG:green-vsrx:loading config
+2014-04-17 09:01:53,229:CONFIG:green-vsrx:unlocking
+2014-04-17 09:01:53,403:CONFIG:green-vsrx:change completed

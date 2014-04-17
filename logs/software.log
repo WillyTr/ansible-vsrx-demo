@@ -4,3 +4,158 @@
 2014-04-14 09:06:06,527:green-vsrx:No need to perform upgrade: 12.1X46-D10.2
 2014-04-14 09:06:06,704:black-vsrx:No need to perform upgrade: 12.1X46-D10.2
 2014-04-14 09:06:06,787:red-vsrx:No need to perform upgrade: 12.1X46-D10.2
+2014-04-17 08:51:39,292:blue-vsrx:upgrade REQUIRED has: 12.1X46-D10.2, shoud: 12.1X46-D15.3
+2014-04-17 08:51:39,380:green-vsrx:upgrade REQUIRED has: 12.1X46-D10.2, shoud: 12.1X46-D15.3
+2014-04-17 08:51:39,446:black-vsrx:upgrade REQUIRED has: 12.1X46-D10.2, shoud: 12.1X46-D15.3
+2014-04-17 08:51:39,450:red-vsrx:upgrade REQUIRED has: 12.1X46-D10.2, shoud: 12.1X46-D15.3
+2014-04-17 08:51:48,762:red-vsrx:Starting the software upgrade process: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,763:red-vsrx:computing local checksum on: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,765:black-vsrx:Starting the software upgrade process: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,766:black-vsrx:computing local checksum on: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,836:blue-vsrx:Starting the software upgrade process: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,836:blue-vsrx:computing local checksum on: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,940:green-vsrx:Starting the software upgrade process: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:48,940:green-vsrx:computing local checksum on: /usr/local/junos/packages/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:51:50,973:red-vsrx:cleaning filesystem ...
+2014-04-17 08:51:50,974:black-vsrx:cleaning filesystem ...
+2014-04-17 08:51:50,986:blue-vsrx:cleaning filesystem ...
+2014-04-17 08:51:51,024:green-vsrx:cleaning filesystem ...
+2014-04-17 08:52:03,497:paramiko.transport:starting thread (client mode): 0xb6810e8cL
+2014-04-17 08:52:03,524:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+2014-04-17 08:52:03,575:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] client mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2014-04-17 08:52:03,575:paramiko.transport:Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+2014-04-17 08:52:03,575:paramiko.transport:using kex diffie-hellman-group1-sha1; server key type ssh-rsa; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+2014-04-17 08:52:03,697:paramiko.transport:Switch to new keys ...
+2014-04-17 08:52:03,703:paramiko.transport:Trying SSH agent key d8f1d14ca504d81bac16ee165ee2eda0
+2014-04-17 08:52:03,809:paramiko.transport:userauth is OK
+2014-04-17 08:52:03,859:paramiko.transport:Auth banner: FireFly demo on Jeremy Laptop
+abc123
+
+2014-04-17 08:52:03,859:paramiko.transport:Authentication (publickey) successful!
+2014-04-17 08:52:03,872:paramiko.transport:[chan 1] Max packet in: 34816 bytes
+2014-04-17 08:52:03,879:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+2014-04-17 08:52:03,879:paramiko.transport:Secsh channel 1 opened.
+2014-04-17 08:52:03,894:paramiko.transport:[chan 1] Sesch channel 1 request ok
+2014-04-17 08:52:04,297:paramiko.transport:starting thread (client mode): 0xb6810f4cL
+2014-04-17 08:52:04,337:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+2014-04-17 08:52:04,393:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] client mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2014-04-17 08:52:04,393:paramiko.transport:Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+2014-04-17 08:52:04,393:paramiko.transport:using kex diffie-hellman-group1-sha1; server key type ssh-rsa; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+2014-04-17 08:52:04,406:paramiko.transport:starting thread (client mode): 0xb681070cL
+2014-04-17 08:52:04,446:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+2014-04-17 08:52:04,504:paramiko.transport:Switch to new keys ...
+2014-04-17 08:52:04,518:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] client mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2014-04-17 08:52:04,518:paramiko.transport:Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+2014-04-17 08:52:04,518:paramiko.transport:using kex diffie-hellman-group1-sha1; server key type ssh-rsa; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+2014-04-17 08:52:04,524:paramiko.transport:Adding ssh-rsa host key for blue-vsrx: 26b044bdf1a9ce3382edd5f81607bac1
+2014-04-17 08:52:04,529:paramiko.transport:Trying SSH agent key d8f1d14ca504d81bac16ee165ee2eda0
+2014-04-17 08:52:04,637:paramiko.transport:userauth is OK
+2014-04-17 08:52:04,763:paramiko.transport:Auth banner: FireFly demo on Jeremy Laptop
+abc123
+
+2014-04-17 08:52:04,763:paramiko.transport:Authentication (publickey) successful!
+2014-04-17 08:52:04,769:paramiko.transport:[chan 1] Max packet in: 34816 bytes
+2014-04-17 08:52:04,773:paramiko.transport:Switch to new keys ...
+2014-04-17 08:52:04,775:paramiko.transport:Adding ssh-rsa host key for black-vsrx: 7c1349bfd8326e27b6ea521d4f0c67bd
+2014-04-17 08:52:04,781:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+2014-04-17 08:52:04,781:paramiko.transport:Secsh channel 1 opened.
+2014-04-17 08:52:04,782:paramiko.transport:Trying SSH agent key d8f1d14ca504d81bac16ee165ee2eda0
+2014-04-17 08:52:04,812:paramiko.transport:[chan 1] Sesch channel 1 request ok
+2014-04-17 08:52:04,892:paramiko.transport:userauth is OK
+2014-04-17 08:52:04,950:paramiko.transport:starting thread (client mode): 0x94a83ecL
+2014-04-17 08:52:04,967:paramiko.transport:Connected (version 2.0, client OpenSSH_6.2)
+2014-04-17 08:52:05,022:paramiko.transport:kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se'] client mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-sha1', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2014-04-17 08:52:05,022:paramiko.transport:Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+2014-04-17 08:52:05,023:paramiko.transport:using kex diffie-hellman-group1-sha1; server key type ssh-rsa; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+2014-04-17 08:52:05,069:paramiko.transport:Auth banner: FireFly demo on Jeremy Laptop
+abc123
+
+2014-04-17 08:52:05,069:paramiko.transport:Authentication (publickey) successful!
+2014-04-17 08:52:05,085:paramiko.transport:[chan 1] Max packet in: 34816 bytes
+2014-04-17 08:52:05,095:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+2014-04-17 08:52:05,095:paramiko.transport:Secsh channel 1 opened.
+2014-04-17 08:52:05,111:paramiko.transport:[chan 1] Sesch channel 1 request ok
+2014-04-17 08:52:05,427:paramiko.transport:Switch to new keys ...
+2014-04-17 08:52:05,456:paramiko.transport:Adding ssh-rsa host key for green-vsrx: 27907e6c86c415e42c18fdc0dd99bd36
+2014-04-17 08:52:05,463:paramiko.transport:Trying SSH agent key d8f1d14ca504d81bac16ee165ee2eda0
+2014-04-17 08:52:05,589:paramiko.transport:userauth is OK
+2014-04-17 08:52:05,759:paramiko.transport:Auth banner: FireFly demo on Jeremy Laptop
+abc123
+
+2014-04-17 08:52:05,759:paramiko.transport:Authentication (publickey) successful!
+2014-04-17 08:52:05,768:paramiko.transport:[chan 1] Max packet in: 34816 bytes
+2014-04-17 08:52:05,775:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+2014-04-17 08:52:05,775:paramiko.transport:Secsh channel 1 opened.
+2014-04-17 08:52:05,791:paramiko.transport:[chan 1] Sesch channel 1 request ok
+2014-04-17 08:52:15,020:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 22609920 / 225949006 (10%)
+2014-04-17 08:52:17,139:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 22609920 / 225949006 (10%)
+2014-04-17 08:52:21,535:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 22609920 / 225949006 (10%)
+2014-04-17 08:52:22,437:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 22609920 / 225949006 (10%)
+2014-04-17 08:52:24,920:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 45203456 / 225949006 (20%)
+2014-04-17 08:52:28,748:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 45203456 / 225949006 (20%)
+2014-04-17 08:52:35,157:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 45203456 / 225949006 (20%)
+2014-04-17 08:52:36,581:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 67796992 / 225949006 (30%)
+2014-04-17 08:52:43,209:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 45203456 / 225949006 (20%)
+2014-04-17 08:52:43,458:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 67796992 / 225949006 (30%)
+2014-04-17 08:52:49,234:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 90390528 / 225949006 (40%)
+2014-04-17 08:52:49,714:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 67796992 / 225949006 (30%)
+2014-04-17 08:52:55,771:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 90390528 / 225949006 (40%)
+2014-04-17 08:53:00,908:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 112984064 / 225949006 (50%)
+2014-04-17 08:53:04,063:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 90390528 / 225949006 (40%)
+2014-04-17 08:53:04,100:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 67796992 / 225949006 (30%)
+2014-04-17 08:53:09,708:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 112984064 / 225949006 (50%)
+2014-04-17 08:53:11,840:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 135577600 / 225949006 (60%)
+2014-04-17 08:53:18,555:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 90390528 / 225949006 (40%)
+2014-04-17 08:53:20,220:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 112984064 / 225949006 (50%)
+2014-04-17 08:53:23,993:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 135577600 / 225949006 (60%)
+2014-04-17 08:53:24,893:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 158171136 / 225949006 (70%)
+2014-04-17 08:53:37,153:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 135577600 / 225949006 (60%)
+2014-04-17 08:53:37,252:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 180764672 / 225949006 (80%)
+2014-04-17 08:53:38,064:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 158171136 / 225949006 (70%)
+2014-04-17 08:53:38,411:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 112984064 / 225949006 (50%)
+2014-04-17 08:53:51,098:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 180764672 / 225949006 (80%)
+2014-04-17 08:53:54,042:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 203358208 / 225949006 (90%)
+2014-04-17 08:53:54,691:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 158171136 / 225949006 (70%)
+2014-04-17 08:53:55,040:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 135577600 / 225949006 (60%)
+2014-04-17 08:54:04,273:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 203358208 / 225949006 (90%)
+2014-04-17 08:54:06,643:red-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 225949006 / 225949006 (100%)
+2014-04-17 08:54:06,764:paramiko.transport:[chan 1] EOF sent (1)
+2014-04-17 08:54:06,779:red-vsrx:computing remote checksum on: /var/tmp/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:54:09,125:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 180764672 / 225949006 (80%)
+2014-04-17 08:54:15,497:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 158171136 / 225949006 (70%)
+2014-04-17 08:54:17,416:black-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 225949006 / 225949006 (100%)
+2014-04-17 08:54:17,483:paramiko.transport:[chan 1] EOF sent (1)
+2014-04-17 08:54:17,512:black-vsrx:computing remote checksum on: /var/tmp/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:54:22,080:red-vsrx:checksum check passed.
+2014-04-17 08:54:22,080:red-vsrx:installing software ... please be patient ...
+2014-04-17 08:54:22,901:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 203358208 / 225949006 (90%)
+2014-04-17 08:54:29,463:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 180764672 / 225949006 (80%)
+2014-04-17 08:54:34,183:blue-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 225949006 / 225949006 (100%)
+2014-04-17 08:54:34,249:paramiko.transport:[chan 1] EOF sent (1)
+2014-04-17 08:54:34,255:blue-vsrx:computing remote checksum on: /var/tmp/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:54:35,348:black-vsrx:checksum check passed.
+2014-04-17 08:54:35,348:black-vsrx:installing software ... please be patient ...
+2014-04-17 08:54:38,491:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 203358208 / 225949006 (90%)
+2014-04-17 08:54:43,869:green-vsrx:junos-vsrx-12.1X46-D15.3-domestic.tgz: 225949006 / 225949006 (100%)
+2014-04-17 08:54:44,074:paramiko.transport:[chan 1] EOF sent (1)
+2014-04-17 08:54:44,084:green-vsrx:computing remote checksum on: /var/tmp/junos-vsrx-12.1X46-D15.3-domestic.tgz
+2014-04-17 08:54:50,346:green-vsrx:checksum check passed.
+2014-04-17 08:54:50,346:green-vsrx:installing software ... please be patient ...
+2014-04-17 08:54:52,566:blue-vsrx:checksum check passed.
+2014-04-17 08:54:52,566:blue-vsrx:installing software ... please be patient ...
+2014-04-17 08:56:58,729:red-vsrx:<REBOOT>
+2014-04-17 08:57:00,194:red-vsrx:upgrade pending reboot cycle, please be patient.
+2014-04-17 08:57:00,397:blue-vsrx:<REBOOT>
+2014-04-17 08:57:00,449:red-vsrx:pausing: 10
+2014-04-17 08:57:01,600:blue-vsrx:upgrade pending reboot cycle, please be patient.
+2014-04-17 08:57:01,842:blue-vsrx:pausing: 10
+2014-04-17 08:57:05,403:black-vsrx:<REBOOT>
+2014-04-17 08:57:05,961:green-vsrx:<REBOOT>
+2014-04-17 08:57:06,188:black-vsrx:upgrade pending reboot cycle, please be patient.
+2014-04-17 08:57:06,428:black-vsrx:pausing: 10
+2014-04-17 08:57:06,827:green-vsrx:upgrade pending reboot cycle, please be patient.
+2014-04-17 08:57:07,120:green-vsrx:pausing: 10
+2014-04-17 08:57:10,460:red-vsrx:process completed OK.
+2014-04-17 08:57:11,853:blue-vsrx:process completed OK.
+2014-04-17 08:57:16,431:black-vsrx:process completed OK.
+2014-04-17 08:57:17,129:green-vsrx:process completed OK.
